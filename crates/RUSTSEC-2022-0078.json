@@ -23,7 +23,8 @@
           "functions": [
             "bumpalo::collections::vec::Vec::into_iter"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -45,7 +46,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

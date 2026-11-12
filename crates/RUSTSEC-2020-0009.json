@@ -30,7 +30,8 @@
             "flatbuffers::read_scalar",
             "flatbuffers::read_scalar_at"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [],
@@ -49,7 +50,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

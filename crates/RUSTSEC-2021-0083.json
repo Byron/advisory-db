@@ -25,7 +25,8 @@
           "functions": [
             "derive_com_impl::derive_com_impl"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -46,7 +47,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

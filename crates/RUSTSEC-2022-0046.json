@@ -23,7 +23,8 @@
           "functions": [
             "rocksdb::DBWithThreadMode::open_cf_descriptors_with_ttl"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -44,7 +45,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

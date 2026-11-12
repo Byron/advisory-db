@@ -24,7 +24,8 @@
             "neon::types::JsArrayBuffer::external",
             "neon::types::JsBuffer::external"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -46,7 +47,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

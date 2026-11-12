@@ -24,7 +24,8 @@
             "lzf::compress",
             "lzf::decompress"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [],
@@ -43,7 +44,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

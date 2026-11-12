@@ -26,7 +26,8 @@
             "maligned::align_first_boxed_cloned",
             "maligned::align_first_boxed_default"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -44,7 +45,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

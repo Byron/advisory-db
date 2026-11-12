@@ -31,7 +31,8 @@
           "functions": [
             "stack_dst::StackA::push_cloned"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -52,7 +53,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

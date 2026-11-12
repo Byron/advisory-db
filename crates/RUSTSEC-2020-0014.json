@@ -43,7 +43,8 @@
             "rusqlite::trace::log",
             "rusqlite::vtab::create_module"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [],
@@ -62,7 +63,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

@@ -27,7 +27,8 @@
             "intaglio::osstr::SymbolTable::intern",
             "intaglio::path::SymbolTable::intern"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [],
@@ -46,7 +47,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

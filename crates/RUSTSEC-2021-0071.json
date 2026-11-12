@@ -31,7 +31,8 @@
           "functions": [
             "grep_cli::DecompressionReader::new"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -52,7 +53,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

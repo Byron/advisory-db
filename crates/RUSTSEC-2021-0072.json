@@ -24,7 +24,8 @@
           "functions": [
             "tokio::task::JoinHandle::abort"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -63,7 +64,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

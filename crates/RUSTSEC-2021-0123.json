@@ -27,7 +27,8 @@
             "fruity::foundation::NSString::to_string",
             "fruity::foundation::NSString::to_string_with_nul"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [],
@@ -46,7 +47,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

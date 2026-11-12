@@ -30,7 +30,8 @@
             "renderdoc::api::RenderDocV110::trigger_multi_frame_capture",
             "renderdoc::api::RenderDocV120::set_capture_file_comments"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [],
@@ -49,7 +50,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

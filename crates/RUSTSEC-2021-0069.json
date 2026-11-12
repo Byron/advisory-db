@@ -26,7 +26,8 @@
             "lettre::transport::smtp::SmtpTransport::send",
             "lettre::transport::smtp::SmtpTransport::send_raw"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -53,7 +54,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

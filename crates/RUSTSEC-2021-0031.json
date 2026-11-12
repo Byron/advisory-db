@@ -30,7 +30,8 @@
             "nano_arena::Arena::split_at",
             "nano_arena::ArenaSplit::split_at"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -51,7 +52,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

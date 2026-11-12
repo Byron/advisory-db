@@ -31,7 +31,8 @@
           "functions": [
             "failure::Fail::__private_get_type_id__"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [],
@@ -47,7 +48,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

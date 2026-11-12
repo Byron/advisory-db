@@ -25,7 +25,8 @@
           "functions": [
             "nanorand::tls::tls_rand"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [],
@@ -44,7 +45,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

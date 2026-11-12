@@ -24,7 +24,8 @@
           "functions": [
             "iced_x86::Decoder::new"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [],
@@ -43,7 +44,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

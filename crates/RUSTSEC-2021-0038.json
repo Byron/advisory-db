@@ -30,7 +30,8 @@
             "fltk::prelude::WidgetExt::set_label_type",
             "fltk::prelude::WindowExt::set_icon"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [],
@@ -49,7 +50,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

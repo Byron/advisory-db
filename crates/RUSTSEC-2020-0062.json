@@ -29,7 +29,8 @@
           "functions": [
             "futures_util::stream::FuturesUnordered"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -51,7 +52,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

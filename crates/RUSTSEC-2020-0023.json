@@ -30,7 +30,8 @@
             "rulinalg::matrix::RowMut::raw_slice",
             "rulinalg::matrix::RowMut::raw_slice_mut"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [],
@@ -46,7 +47,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

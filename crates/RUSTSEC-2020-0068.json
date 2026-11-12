@@ -30,7 +30,8 @@
             "multihash::digests::MultihashGeneric::from_bytes",
             "multihash::digests::MultihashRefGeneric::from_slice"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -51,7 +52,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

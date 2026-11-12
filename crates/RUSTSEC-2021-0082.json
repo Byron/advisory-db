@@ -1,6 +1,6 @@
 {
   "id": "RUSTSEC-2021-0082",
-  "modified": "2023-06-13T13:10:24Z",
+  "modified": "2025-12-17T17:06:41Z",
   "published": "2021-08-14T12:00:00Z",
   "aliases": [
     "CVE-2021-45680",
@@ -23,7 +23,8 @@
           "arch": [],
           "os": [],
           "functions": []
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -44,7 +45,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

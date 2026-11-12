@@ -34,7 +34,8 @@
             "image::Rgb::from_slice_mut",
             "image::Rgba::from_slice_mut"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [],
@@ -53,7 +54,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

@@ -30,7 +30,8 @@
             "sodiumoxide::crypto::generichash::Digest::eq",
             "sodiumoxide::crypto::generichash::Digest::ne"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [],
@@ -49,7 +50,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

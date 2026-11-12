@@ -31,7 +31,8 @@
             "lettre::transport::sendmail::SendmailTransport::send",
             "lettre::transport::sendmail::SendmailTransport::send_raw"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -71,7 +72,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

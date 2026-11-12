@@ -23,7 +23,8 @@
           "functions": [
             "rustc_serialize::json::Json::from_str"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -41,7 +42,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

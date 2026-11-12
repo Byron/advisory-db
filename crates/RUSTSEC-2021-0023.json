@@ -30,7 +30,8 @@
             "rand_core::le::read_u32_into",
             "rand_core::le::read_u64_into"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -51,7 +52,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

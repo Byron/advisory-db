@@ -23,7 +23,8 @@
           "functions": [
             "mail_internals::utils::vec_insert_bytes"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -41,7 +42,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

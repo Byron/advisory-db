@@ -24,7 +24,8 @@
             "openssl::x509::X509Extension::new",
             "openssl::x509::X509Extension::new_nid"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -45,7 +46,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

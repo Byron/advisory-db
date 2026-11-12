@@ -27,7 +27,8 @@
             "crypto2::streamcipher::Chacha20::encrypt_slice",
             "crypto2::streamcipher::xor_si512_inplace"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [],
@@ -43,7 +44,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

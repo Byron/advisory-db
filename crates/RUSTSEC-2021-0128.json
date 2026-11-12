@@ -43,7 +43,8 @@
             "rusqlite::Connection::rollback_hook",
             "rusqlite::Connection::update_hook"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -70,7 +71,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

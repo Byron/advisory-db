@@ -24,7 +24,8 @@
           "functions": [
             "ark_r1cs_std::FieldVar::mul_by_inverse"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -45,7 +46,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

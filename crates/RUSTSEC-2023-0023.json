@@ -24,7 +24,8 @@
             "openssl::x509::extension::ExtendedKeyUsage::other",
             "openssl::x509::extension::SubjectAlternativeName::new"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -45,7 +46,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

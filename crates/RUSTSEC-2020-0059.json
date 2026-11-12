@@ -29,7 +29,8 @@
           "functions": [
             "futures_util::lock::MutexGuard::map"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -50,7 +51,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

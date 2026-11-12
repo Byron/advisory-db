@@ -31,7 +31,8 @@
           "functions": [
             "http::header::HeaderMap::reserve"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -52,7 +53,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

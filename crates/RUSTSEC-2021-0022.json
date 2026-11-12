@@ -32,7 +32,8 @@
             "yottadb::KeyContext::sub_next_self_st",
             "yottadb::KeyContext::sub_prev_self_st"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -53,7 +54,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

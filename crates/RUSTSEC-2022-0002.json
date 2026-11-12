@@ -36,7 +36,8 @@
             "dashmap::setref::multiple::RefMulti::key",
             "dashmap::setref::one::Ref::key"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -58,7 +59,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

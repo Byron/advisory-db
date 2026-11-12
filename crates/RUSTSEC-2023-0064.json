@@ -1,0 +1,72 @@
+{
+  "id": "RUSTSEC-2023-0064",
+  "modified": "2025-10-28T06:02:18Z",
+  "published": "2023-09-23T12:00:00Z",
+  "aliases": [
+    "CVE-2023-53158",
+    "GHSA-rrjw-j4m2-mf34"
+  ],
+  "related": [],
+  "summary": "gix-transport code execution vulnerability",
+  "details": "The `gix-transport` crate prior to the patched version 0.36.1 would allow attackers to\nuse malicious ssh clone URLs to pass arbitrary arguments to the `ssh` program, leading\nto arbitrary code execution.\n\nPoC: `gix clone 'ssh://-oProxyCommand=open$IFS-aCalculator/foo'`\n\nThis will launch a calculator on OSX.\n\nSee <https://secure.phabricator.com/T12961> for more details on similar vulnerabilities in `git`.\n\nThanks to [vin01](https://github.com/vin01) for disclosing the issue.",
+  "severity": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "crates.io",
+        "name": "gix-transport",
+        "purl": "pkg:cargo/gix-transport"
+      },
+      "ecosystem_specific": {
+        "affects": {
+          "arch": [],
+          "os": [],
+          "functions": []
+        },
+        "affected_functions": null
+      },
+      "database_specific": {
+        "categories": [
+          "code-execution"
+        ],
+        "cvss": null,
+        "informational": null
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0.0.0-0"
+            },
+            {
+              "fixed": "0.36.1"
+            }
+          ]
+        }
+      ],
+      "versions": []
+    }
+  ],
+  "references": [
+    {
+      "type": "PACKAGE",
+      "url": "https://crates.io/crates/gix-transport"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0064.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Byron/gitoxide/pull/1032"
+    },
+    {
+      "type": "WEB",
+      "url": "https://secure.phabricator.com/T12961"
+    }
+  ],
+  "database_specific": {
+    "license": "CC0-1.0"
+  }
+}

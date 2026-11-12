@@ -1,6 +1,6 @@
 {
   "id": "RUSTSEC-2020-0111",
-  "modified": "2023-06-13T13:10:24Z",
+  "modified": "2024-10-25T18:45:36Z",
   "published": "2020-11-10T12:00:00Z",
   "aliases": [
     "CVE-2020-36217",
@@ -27,7 +27,8 @@
           "arch": [],
           "os": [],
           "functions": []
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -43,10 +44,14 @@
           "events": [
             {
               "introduced": "0.0.0-0"
+            },
+            {
+              "fixed": "0.1.8"
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [
