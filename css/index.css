@@ -154,6 +154,10 @@ nav, body > footer {
   text-align: left;
 }
 
+.homepage img.logo-image {
+  width: 50%;
+}
+
 /* For blocks on the homepage */
 
 .row {
@@ -243,4 +247,35 @@ a.button {
 
 a.button:hover{
     border-color: rgba(255,255,255,1);
+}
+
+/* Light theme */
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #d2d2d2;
+    color: black;
+  }
+
+  body > header {
+    background-color: #b2b2b2;
+    color: black;
+  }
+
+  .column {
+    background-color: #b2b2b2;
+  }
+
+  code {
+    background-color: rgba(107, 107, 107, 0.12);
+    color: #333;
+  }
+
+  a.button {
+    background-color: #46d;
+  }
+
+  a.button:hover {
+    border-color: black;
+  }
 }
